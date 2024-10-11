@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "start": "your-start-command",
+    "build": "flutter build web",
+    "deploy": "gh-pages -d build/web"
+  }
+}
